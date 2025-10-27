@@ -16,31 +16,30 @@ public class Cliente {
         this.id = id;
         this.nombre = nombre;
         this.dni = dni;
+        
     }
 
-    // --- GETTERS ---
-    public int getId() {
-        return id;
-    }
+	public int getId() {
+		return id;
+	}
 
-    public String getNombre() {
-        return nombre;
-    }
+	public void setId(int id) {
+		this.id = id;
+	}
 
-    public String getDni() {
-        return dni;
-    }
+	public String getNombre() {
+		return nombre;
+	}
 
-    // --- SETTERS ---
-    public void setId(int id) {
-        this.id = id;
-    }
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
+	public String getDni() {
+		return dni;
+	}
 
-    public void setDni(String dni) {
-        this.dni = dni;
-    }
+	public void setDni(String dni) {
+		this.dni = dni;
+	}
 }
