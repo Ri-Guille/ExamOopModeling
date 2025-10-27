@@ -42,4 +42,5 @@ public class Cliente {
 	public void setDni(String dni) {
 		this.dni = dni;
 	}
+
 }
